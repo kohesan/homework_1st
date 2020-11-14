@@ -1,0 +1,251 @@
+/* ここから下に記載していく */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul.header_nav{
+    display: flex;
+}
+
+.header_nav li{
+   margin-left: 40px; 
+}
+
+.mainvisual{
+    height: 400px;
+    background: url("../img/mainbg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 世界を変えるチーズを作ろう */
+.mainvisual_title{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 170px;
+}
+
+/* チーズ職人養成学校「チーズアカデミーTOKYO」 */
+.mainvisual_subtitle{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.about{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.about_title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 217, 0);
+    margin-bottom: 20px;
+}
+
+.about_subtitle{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.about_text{
+    margin-bottom: 20px;
+}
+
+.imgbox{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.imgbox p{
+    width: 25%;
+}
+
+.imgbox p img{
+    width: 100%;
+}
+
+.course{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.course_title{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.course_text{
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.course_contents{
+    display: flex;
+}
+.box-image{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.box-text{
+    flex: 1;
+    margin-top: 120px;
+    margin-left: 50px;
+    /* background-color: rgb(245, 245, 245); */
+    /* background-size: cover; */
+}
+
+.news{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.news_title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 217, 0);
+    margin-bottom: 20px;
+}
+
+.news_text{
+    margin-bottom: 20px;
+}
+
+ul.newslist{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+}
+
+li.newslist_item{
+    width: 300px;
+}
+.more{
+    width: 300px;
+    height: 60px;
+    background-position: center;
+    background-color: tomato;
+    color: white;
+    margin: 60px auto;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center; /*左右中央揃え*/
+    align-items: center;     /*上下中央揃え*/
+}
+
+.access_back{
+    background-color: rgb(245, 245, 245);
+}
+
+.access{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.access_detail{
+    margin-left: 500px;
+    margin: 50px 0;
+}
+
+.access_q{
+    color:  rgb(245, 245, 245);
+}
+
+.access_title{
+    background-color: rgb(245, 245, 245);
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.access_text{
+    margin-bottom: 20px;
+}
+
+.access_contents{
+    display: flex;
+    margin: 60px auto;
+}
+.text1{
+    margin-left: 400px;
+}
+
+.text2{
+    margin-left: 50px;
+}
+
+.contact{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.contact_title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 217, 0);
+    margin-bottom: 20px;
+}
+
+.contact_text{
+    margin-bottom: 20px;
+}
+
+.formbox{
+    text-align: left;
+    margin: 50px auto;
+    /* display: flex; */
+}
+
+dt{
+    margin-left: 400px;
+    width: 300px;
+    display: flex;
+}
+/* dd{
+    width: 300px;
+} */
+
+iframe{
+    width: 100%;
+}
+
+.send{
+    width: 300px;
+    height: 60px;
+    background-position: center;
+    background-color: tomato;
+    color: white;
+    margin: 60px auto;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center; /*左右中央揃え*/
+    align-items: center;     /*上下中央揃え*/
+}
+
+.bottom{
+    width: 100%;
+    height: 60px;
+    background-color:#707070;
+    color: white;
+    margin: 30px auto;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center; /*左右中央揃え*/
+    align-items: center;     /*上下中央揃え*/
+}
